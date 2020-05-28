@@ -35,3 +35,15 @@ h1{
     font-size: 70px;
     color: #FFD700;
 }
+.paragraph-container{
+    display: flex;
+    justify-content: flex-end;
+}
+p{
+    padding-left: 150px;
+    max-width:600px;
+    border: 0px;
+    padding: 50px;
+    margin: 20px;
+    font-size: 20px;
+}
