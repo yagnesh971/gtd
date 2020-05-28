@@ -1,10 +1,9 @@
 .header-container{ 
     display: flex;
     justify-content: space-between;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
     background-color: grey;
-    width:100%;
 }
 .gtd-banner-container{
     position: relative;
@@ -13,8 +12,12 @@
 .gtd-banner-text{
     position: absolute;
     top: 200px; 
-    left: 0; 
+    left: 200px; 
     width: 100%;
     color: grey;
     font-size: xxx-large;
+}
+.image-container{
+    display: flex;
+    position: absolute;
 }
