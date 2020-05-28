@@ -26,3 +26,12 @@
     width: 100%;
     
 }
+.text-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+h1{
+    font-size: 70px;
+    color: #FFD700;
+}
