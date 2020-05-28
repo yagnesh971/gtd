@@ -1,0 +1,9 @@
+.header-container{ 
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: .5px;
+    margin-bottom: .5px;
+    background-color: grey;
+}
