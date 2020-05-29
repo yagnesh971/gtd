@@ -74,6 +74,10 @@ p{
 }
 .footer-container{
     display: flex;
+    background-color: grey;
+}
+.team-names{
+    list-style: none;
 }
     
 
