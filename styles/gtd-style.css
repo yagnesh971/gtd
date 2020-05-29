@@ -76,8 +76,13 @@ p{
     display: flex;
     background-color: grey;
 }
+.list-name{
+    color: #FFD700;
+}
 .team-names{
+    padding-top:1px;
     list-style: none;
+    color: white;
 }
     
 
