@@ -72,5 +72,8 @@ p{
     top:130px;
     padding-left:250px;
 }
+.footer-container{
+    display: flex;
+}
     
 
