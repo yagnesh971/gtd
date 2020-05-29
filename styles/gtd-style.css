@@ -48,13 +48,15 @@ p{
 .contact-container{
     display: flex;
     justify-content:space-evenly;
-    padding:20px; 
+    padding:20px;
+    width:100%;
 }
 .contact-items{
     
     padding-top: 20px;
     position: relative;
-
+    width:50%;
+    padding-left: 250px;
 }
 .contact-name{
     position: absolute;
