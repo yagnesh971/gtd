@@ -75,6 +75,8 @@ p{
 .footer-container{
     display: flex;
     background-color: grey;
+    border-top: 5px;
+    border-top-color: #FFD700;
 }
 .list-name{
     color: #FFD700;
