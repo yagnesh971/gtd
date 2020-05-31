@@ -13,7 +13,7 @@
 }
 .gtd-banner-container{
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
     background-image: url('../images//gtdBannerImage.jpg');
 }
 .gtd-banner-text{
@@ -23,13 +23,14 @@
 
 }
 .image-container{
+    position: relative;
     display: flex;
-    position: absolute;
-    justify-content: space-evenly;
-    top: 435px; 
-    right: 10px; 
-    width: 100%;
-    
+    padding-right: 200px;
+    padding-left: 350px;
+    top:-100px;
+}
+.image-items{
+    flex:1;
 }
 .text-container{
     display: flex;
