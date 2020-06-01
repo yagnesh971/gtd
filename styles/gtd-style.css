@@ -44,7 +44,7 @@ h1{
     justify-content: center;
 }
 p{
-    max-width:800px;
+    max-width:650px;
     border: 0px;
     margin: 20px;
     font-size: 20px;
@@ -78,16 +78,27 @@ p{
 .footer-container{
     display: flex;
     background-color: grey;
-    justify-content: space-evenly;
+    justify-content: center;
     border-top: 5px solid #FFD700;
 }
 .list-name{
     color: #FFD700;
 }
+.title{
+    padding-top:20px;
+    padding-bottom: 10px;
+    list-style: none;
+}
 .team-names{
-    padding-top:1px;
+   
     list-style: none;
     color: white;
+}
+.join-us{
+    list-style: none;
+    padding-top: 10px;
+    color: white;
+    padding-bottom: 20px;
 }
     
 
