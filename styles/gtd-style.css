@@ -10,7 +10,8 @@ body{
 }
 
 .gtd--logo{
-    padding-right: 100px;
+    padding-right: 110px;
+    padding-left: 110px;
 }
 .search--box{
     background-color:#111;
@@ -96,7 +97,7 @@ p{
 .footer-container{
     display: flex;
     background-color: grey;
-    justify-content: center;
+    justify-content: space-evenly;
     border-top: 5px solid #FFD700;
 }
 .list-name{
