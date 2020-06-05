@@ -74,27 +74,24 @@ p{
 }
 .contact-container{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
+}
+.contact-items{
+    
+    padding-top: 20px;
+    display: flex;
 }
 
 .contact-image{
      width: 100px;
      height: 100px;
 }
-.contact-items{
-    
-    padding-top: 20px;
+.contact-details{
+    flex: 1;
+    padding: 30px 10px;
 }
 .contact-name{
     color: #FFD700;
-}
-.subline-text{
-    display: block;
-}
-.subline-contact{
-    top:130px;
-    padding-left:250px;
 }
 .footer-container{
     display: flex;
