@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header-container{
+    background-color: grey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin:5px 10px 10px;
+}
+.header-container h1{
+    color: white;
+    text-align: center;
+}
+.section-container{
+    display: flex;
+}
+.cities-container{
+    background-color: lightgrey;
+    padding: 20px;
+    flex: 1;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.cities-container ul{
+    list-style: none;
+}
+.article-container{
+    flex: 3;
+}
+.footer-container{
+    background-color: grey;
+    padding: 20px 0px 20px 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+
+
