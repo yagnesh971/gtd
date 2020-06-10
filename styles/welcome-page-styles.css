@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: grey;
+}
+.nav-list ul{
+    list-style-type: none;
+    display: flex;
+}
+li a{
+     padding: 14px 16px;
+     color: white;
+}
