@@ -42,3 +42,19 @@ li a{
 .intro-container p{
     margin: 0px 0px 16px;
 }
+.heading-container{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 50px ;
+    margin-right: 10px;
+}
+.heading-items{
+    flex: 1;
+}
+.heading-item{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: black;
+    margin: 0px 0px 8px;
+}
