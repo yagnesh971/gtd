@@ -4,13 +4,15 @@ body{
 }
 .nav-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    background-color: grey;
+    background-color: black;
 }
 .nav-list ul {
     list-style-type: none;
     display: flex;
+    padding: 0px;
+    margin: 0px;
 }
 li a{
      padding: 14px 16px;
@@ -30,4 +32,13 @@ li a{
     font-size: 4.5rem;
     font-weight: 300;
     line-height: 1.2;
+    margin: 0px 0px 8px;
+}
+.intro-container{
+    background-color:lightgray;
+    padding: 20px 50px 40px 50px;
+    margin: 0px;
+}
+.intro-container p{
+    margin: 0px 0px 16px;
 }
