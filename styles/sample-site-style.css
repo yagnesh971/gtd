@@ -60,4 +60,9 @@ body{
     padding-left: 30px;
     color: #000000;
 }
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 30px;
+}
 
