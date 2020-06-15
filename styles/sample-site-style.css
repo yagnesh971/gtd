@@ -3,10 +3,8 @@ body{
     margin: 0px;
 }
 .header-container{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 16px 0.15px;
-
+    display: block;
+    text-align: center;
 }
 .logo{
     font-family: fontawesome;
@@ -17,10 +15,25 @@ body{
     display: block;
     top: 17px;
 }
+.logo a:hover{
+   background-color: green;
+}
 .header-text-container h1{
     font-family: 'Segoe UI',Arial,sans-serif;
     color: black;
     font-size: 15px;
     top: 17px;
     padding-top: 10px;
+}
+@media screen and (min-width: 992px){
+    .header-container{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 16px 0.15px;
+    }
+}
+@media screen and (max-width: 600px){
+    .header-text-container{
+        
+    }
 }
