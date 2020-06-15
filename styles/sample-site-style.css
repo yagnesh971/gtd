@@ -16,7 +16,7 @@ body{
     top: 17px;
 }
 .logo a:hover{
-   background-color: green;
+   color: green;
 }
 .header-text-container h1{
     font-family: 'Segoe UI',Arial,sans-serif;
@@ -31,9 +31,26 @@ body{
         justify-content: space-between;
         padding: 20px 16px 0.15px;
     }
-}
-@media screen and (max-width: 600px){
-    .header-text-container{
-        
+    .bi .bi-justify{
+        display: none;
     }
 }
+.section-container{
+    background-color: grey;
+}
+.nav-items{
+    font-size: 22px;
+    padding: 11px 15px 13px;
+    color: white;
+   }
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items-container{
+    display: flex;
+}
+.nav-right-items-container{
+    display: flex;
+}
+
