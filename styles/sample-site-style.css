@@ -65,4 +65,16 @@ body{
     justify-content: space-between;
     padding: 8px 30px;
 }
+.btn{
+    background-color: #4CAF50;
+    color: white;
+}
+.react-intro{
+    background-color: #d4edda;
+    padding: 8px 30px;
+    border-bottom: 1px solid lightgray;
+}
+.react-intro p{
+    font-size: 15px;
+}
 
