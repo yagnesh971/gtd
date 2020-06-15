@@ -4,5 +4,23 @@ body{
 }
 .header-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 20px 16px 0.15px;
+
+}
+.logo{
+    font-family: fontawesome;
+    text-decoration: none;
+    font-size: 37px;
+    letter-spacing: 3px;
+    color: #555555;
+    display: block;
+    top: 17px;
+}
+.header-text-container h1{
+    font-family: 'Segoe UI',Arial,sans-serif;
+    color: black;
+    font-size: 15px;
+    top: 17px;
+    padding-top: 10px;
 }
