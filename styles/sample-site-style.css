@@ -31,12 +31,23 @@ body{
         justify-content: space-between;
         padding: 20px 16px 0.15px;
     }
-    .bi .bi-justify{
+    .bi-justify{
         display: none;
+    }
+    .nav-large-items{
+        font-size: 22px;
+        padding: 11px 15px 13px;
+        color: white;
+
     }
 }
 .section-container{
     background-color: grey;
+}
+@media screen and (max-width: 992px){
+.nav-large-items{
+    display: none;
+   }
 }
 .nav-items{
     font-size: 22px;
@@ -72,7 +83,6 @@ body{
 .react-intro{
     background-color: #d4edda;
     padding: 8px 30px;
-    border-bottom: 1px solid lightgray;
 }
 .react-intro p{
     font-size: 15px;
