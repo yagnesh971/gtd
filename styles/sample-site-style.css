@@ -65,6 +65,9 @@ body{
     font-family: "Segoe UI",Arial,sans-serif;
     padding: 2px 1px 1px 16px;
 }
+.side-nav-items li{
+    padding: 5px 1px 5px 5px;
+}
 
 .nav-items{
     font-size: 22px;
