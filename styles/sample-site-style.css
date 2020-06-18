@@ -54,10 +54,16 @@ body{
 }
 .side-nav-container{
     flex: 1;
-    background-color: lightgray;
+    background-color: lightgrey;
+}
+.side-nav-items h2{
+    font-size: 21px;
+    padding-left: 16px;
 }
 .side-nav-items ul{
     list-style: none;
+    font-family: "Segoe UI",Arial,sans-serif;
+    padding: 2px 1px 1px 16px;
 }
 .nav-items{
     font-size: 22px;
