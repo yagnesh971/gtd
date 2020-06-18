@@ -112,7 +112,11 @@ body{
     font-family: "Segoe UI",Arial,sans-serif;
     margin: 10px 0;
     padding: 8px 30px;
-    border-top: 1px solid lightgrey;
+   
+}
+.learn-container h2{
+     border-top: 1px solid lightgrey;
+     padding-top:20px;
 }
 .example-container{
     border: 1px solid #f2f0f0;
@@ -131,6 +135,15 @@ body{
 }
 .example-container div{
     padding: 8px 30px;
+}
+.create-container{
+     padding: 8px 30px;
+}
+.create-container h2{
+    font-family: "Segoe UI",Arial,sans-serif;
+    margin: 10px 0;
+    border-top: 1px solid lightgrey;
+    padding-top: 20px;
 }
 
 
