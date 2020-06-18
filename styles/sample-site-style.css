@@ -15,7 +15,7 @@ body{
     display: block;
     top: 17px;
 }
-.logo a:hover{
+.logo:hover{
    color: green;
 }
 .header-text-container h1{
@@ -49,6 +49,16 @@ body{
     display: none;
    }
 }
+.main-container{
+    display: flex;
+}
+.side-nav-container{
+    flex: 1;
+    background-color: lightgray;
+}
+.side-nav-items ul{
+    list-style: none;
+}
 .nav-items{
     font-size: 22px;
     padding: 11px 15px 13px;
@@ -63,6 +73,9 @@ body{
 }
 .nav-right-items-container{
     display: flex;
+}
+.intro-container{
+    flex: 5;
 }
 .react-heading{
     font-family: "Segoe UI",Arial,sans-serif;
@@ -92,4 +105,9 @@ body{
     margin: 10px 0;
     padding: 8px 30px;
 }
+.example-container h2{
+    font-family: "Segoe UI",Arial,sans-serif;
+    padding: 8px 30px;
+}
+
 
