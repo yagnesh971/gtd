@@ -127,5 +127,8 @@ body{
     width:600px;
     background-color: white;
 }
+.example-container div{
+    padding: 8px 30px;
+}
 
 
