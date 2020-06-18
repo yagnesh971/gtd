@@ -106,11 +106,13 @@ body{
 }
 .react-intro p{
     font-size: 15px;
+    margin: 10px;
 }
 .learn-container{
     font-family: "Segoe UI",Arial,sans-serif;
     margin: 10px 0;
     padding: 8px 30px;
+    border-top: 1px solid lightgrey;
 }
 .example-container{
     border: 1px solid #f2f0f0;
