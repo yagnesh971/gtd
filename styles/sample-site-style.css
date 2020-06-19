@@ -85,7 +85,7 @@ body{
     display: flex;
 }
 .intro-container{
-    flex: 5;
+    flex: 4;
 }
 .react-heading{
     font-family: "Segoe UI",Arial,sans-serif;
@@ -124,7 +124,7 @@ body{
 .example-container{
     border: 1px solid #f2f0f0;
     background-color: #f2f0f0 ;
-    margin-left: 10px;
+    margin: 0px 10px 0px 10px;
 }
 .example-container h2{
     font-family: "Segoe UI",Arial,sans-serif;
@@ -147,6 +147,10 @@ body{
     margin: 10px 0;
     border-top: 1px solid lightgrey;
     padding-top: 20px;
+}
+.left-side{
+    flex:1;
+    border: 1px solid lightgrey;
 }
 
 
