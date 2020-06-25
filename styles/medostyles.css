@@ -2,17 +2,17 @@ body{
     padding: 0px;
     margin: 0px;
 }
+.row-images{
+   
+}
 .image-items{
-  width: 18%;
-  height: 18%;
+    width:50%;
+    height: 50%;
   position: relative;
   filter: grayscale(100%);
 }
 .image-items:hover{
     filter: blur(4px);
-}
-.image-name:hover{
-    opacity: 0.3;
 }
 .image-name{
     position: absolute;
